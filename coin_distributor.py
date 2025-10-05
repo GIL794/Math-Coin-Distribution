@@ -1,11 +1,11 @@
 from itertools import combinations, permutations
 
 NUM_CHILDREN = 7
-NUM_COINS = 50
+NUM_COINS = 49
 MAX_COINS_PER_CHILD = 7
 
-# Generate the list of coin weights: 1 to 50 grams
-coins = list(range(1, NUM_COINS+1))
+# Generate the list of coin weights: 1 to 49 grams
+coins = list(range(1, NUM_COINS-1))
 
 print(coins)
 

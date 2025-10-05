@@ -7,8 +7,12 @@ MAX_COINS_PER_CHILD = 7
 # Generate the list of coin weights: 1 to 50 grams
 coins = list(range(1, NUM_COINS+1))
 
+print(coins)
+
 # The total weight
 total_weight = sum(coins)
+
+print(total_weight)
 
 # Each child should get the same total weight
 if total_weight % NUM_CHILDREN != 0:

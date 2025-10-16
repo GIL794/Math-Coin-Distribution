@@ -6,7 +6,7 @@ README.md: Explanation and usage instructions.  LICENSE: (MIT/Apache or your cho
 
 This repository provides a solution in Python to the following problem:
 
-> A father has 7 children and 50 coins, each coin weighs 1g more than the previous (i.e., coins weigh from 1g to 50g). Each kid should receive a maximum of 7 coins, and the **sum of the weights** must be the same for each child. No one gets more or fewer coins or any difference in total weight.
+> A father has 7 children and 49 coins, each coin weighs 1g more than the previous (i.e., coins weigh from 1g to 49g). Each kid should receive a maximum of 7 coins, and the **sum of the weights** must be the same for each child. No one gets more or fewer coins or any difference in total weight.
 
 ## How It Works
 
